@@ -232,7 +232,7 @@ function onMIDIInit( midi ) {
 
 
 function flipHandler(e) {
-	if (mouseIsDown) {
+	if (onclick) {
 		flip(e.target);
 	}
 	//console.log(mouseIsDown);
